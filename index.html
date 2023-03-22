@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="first-box">
+        <h3 id="home">HOME</h3>
+        <p id="score1">0</p>
+        <button id="first-home" class="plus-buttons" onclick="firstHomeEl()">
+          +1
+        </button>
+        <button id="second-home" class="plus-buttons" onclick="secondHomeEl()">
+          +2
+        </button>
+        <button id="third-home" class="plus-buttons" onclick="thirdHomeEl()">
+          +3
+        </button>
+        <div class="home-res">
+          <button class="reset-btn" onclick="resetHome()">RESET</button>
+        </div>
+      </div>
+
+      <div>
+        <h3 id="guest">GUEST</h3>
+        <p id="score2">0</p>
+        <button id="first-guest" class="plus-buttons" onclick="firstGuestEl()">
+          +1
+        </button>
+        <button
+          id="second-guest"
+          class="plus-buttons"
+          onclick="secondGuestEl()"
+        >
+          +2
+        </button>
+        <button id="third-guest" class="plus-buttons" onclick="thirdGuestEl()">
+          +3
+        </button>
+        <div class="guest-res">
+          <button class="reset-btn" onclick="resetGuest()">RESET</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

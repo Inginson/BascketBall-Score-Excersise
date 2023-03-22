@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  background-color: #e5e5e5;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 875px;
+  margin: 0 auto;
+  background-color: 132743;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.pluss-buttons {
+  position: absolute;
+}
+
+#home,
+#guest {
+  color: white;
+  font-size: 30px;
+}
+
+#score1,
+#score2 {
+  color: #e11d48;
+  font-family: "Orbitron", sans-serif;
+  font-size: 50px;
+  margin: 0auto;
+  background-color: black;
+  padding: 45px;
+  margin-top: -5px;
+}
+
+#first-home,
+#second-home,
+#third-home,
+#first-guest,
+#second-guest,
+#third-guest {
+  margin: 8px;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border-color: 9AABD8;
+  color: 9AABD8;
+  font-family: "Orbitron", sans-serif;
+}
+
+.reset-btn {
+  background-color: #a2a8d3;
+  width: 170px;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  color: #680747;
+  border-radius: 5px;
+  border-color: #9AABD8;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  padding: 8px;
+  font-weight: bolder;
+}
